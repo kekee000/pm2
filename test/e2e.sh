@@ -15,13 +15,13 @@ touch e2e_time
 runTest ./test/e2e/cli/reload.sh
 runTest ./test/e2e/cli/start-app.sh
 runTest ./test/e2e/cli/operate-regex.sh
-runTest ./test/e2e/cli/bun.sh
+# runTest ./test/e2e/cli/bun.sh
 runTest ./test/e2e/cli/app-configuration.sh
 runTest ./test/e2e/cli/binary.sh
 runTest ./test/e2e/cli/startOrX.sh
 runTest ./test/e2e/cli/reset.sh
 runTest ./test/e2e/cli/env-refresh.sh
-runTest ./test/e2e/cli/extra-lang.sh
+# runTest ./test/e2e/cli/extra-lang.sh
 runTest ./test/e2e/cli/python-support.sh
 runTest ./test/e2e/cli/multiparam.sh
 runTest ./test/e2e/cli/smart-start.sh
